@@ -1254,7 +1254,7 @@ Wearable NeuroLife HD‑EMG sleeve (up to 150 electrodes) records forearm muscle
 
 ---
 
-### [38] A. Baldassarre et al., “Industrial exoskeletons from bench to field: Human-machine interface and user experience in occupational settings and tasks,” Front. Public Health, vol. 10, Nov. 2022, doi: 10.3389/fpubh.2022.1039680.I'll create a short todo plan, then open ref_38.txt and extract the requested details.
+### [38] A. Baldassarre et al., “Industrial exoskeletons from bench to field: Human-machine interface and user experience in occupational settings and tasks,” Front. Public Health, vol. 10, Nov. 2022, doi: 10.3389/fpubh.2022.1039680.
 
 **Summary**
 - **Brief:** This systematic review synthesizes on-field and real-task studies (n=24) examining workers' subjective experience with industrial exoskeletons. It finds passive exoskeletons can reduce acute physical strain in static tasks (e.g., overhead work) but often hinder performance in dynamic tasks. Usability, comfort, and ease of donning/doffing strongly determine acceptance. The review highlights limited longitudinal evidence on long-term health benefits and calls for more field-based, high-quality studies.
@@ -1284,5 +1284,89 @@ Wearable NeuroLife HD‑EMG sleeve (up to 150 electrodes) records forearm muscle
 - **Outcome coverage:** Usability studied in 18 papers (75%); perceived comfort in 13 (54%); perceived exertion/fatigue in 9 (39%); job performance/productivity in 8 (33%); acceptability/intention-to-use in 12 (50%); occupational safety/health outcomes in only 3 studies.
 - **Device mass examples:** Upper-limb exoskeletons approx. 2–5 kg (e.g., Levitate AirFrame ~2 kg; ShoulderX ~5 kg); back supports ~0.9–2+ kg (ErgoVest ~0.9 kg; Laevo >2 kg).
 - **Temporal effects:** Some benefits (e.g., reduced discomfort) may appear or improve after sustained use (e.g., positive effects reported after months in some studies), but user acceptance sometimes declines after initial enthusiasm.
+
+---
+
+### [39] Critical Issues and Imminent Challenges in the Use of sEMG in Return-To-Work Rehabilitation of Patients Affected by Neurological Disorders in the Epoch of Human–Robot Collaborative Technologies
+**URL:** https://doi.org/10.3389/fneur.2020.572069
+
+**Summary:**
+This 2020 perspective article analyzes the barriers preventing the widespread adoption of sEMG for return-to-work (RTW) programs and Human-Robot Collaborative (HRC) technologies, such as exoskeletons. While focused on neurological rehabilitation, the paper details universal challenges—technical, methodological, and cultural—that hinder the use of sEMG for controlling assistive devices and monitoring ergonomic risk in working environments.
+
+**Key Points:**
+- Identifies three categories of barriers to sEMG adoption: **Technical** (electrode impedance, noise, crosstalk), **Methodological** (normalization, sensor placement, outcome definition), and **Cultural** (preference for qualitative over quantitative assessments).
+- Discusses sEMG's dual role: **Monitoring** (fatigue, co-activation, biomechanical risk) and **Control** (intent detection for active exoskeletons).
+- Advocates for High-Density sEMG (HDsEMG) to improve spatial resolution and intent recognition accuracy for exoskeleton control.
+- Highlights the need for "myocontrol" algorithms that account for muscle fatigue and stiffness to ensure safe physical human-robot interaction.
+- Emphasizes the gap in training for occupational health and safety technicians and ergonomists regarding quantitative instrumental measurements.
+
+**How this reference can be used:**
+- To provide a structured framework for discussing *why* sEMG is difficult to implement in real-world construction settings (citing the Technical/Methodological/Cultural barrier taxonomy).
+- To support arguments for using sEMG not just for analysis, but for real-time exoskeleton control (myocontrol).
+- To justify the need for High-Density sEMG (HDsEMG) over simple bipolar sensors for complex task recognition.
+- To highlight the "cultural gap" in the industry, advocating for better training of construction safety professionals in quantitative data interpretation.
+
+**Key Statistics / Notable Technical Facts:**
+- The paper identifies specific sEMG indices useful for work assessment: Amplitude (Maximum, ARV, RMS), Activation Timings, and Co-activation (simultaneous activation of muscle groups).
+- Mentions that muscle synergies (primitives) can be reduced to a limited number of functions: typically **five** primitives for steady-state walking and **four** for running.
+- Notes that current sEMG-based interfaces often limit control to one Degree of Freedom (DoF) due to low spatial sampling, arguing for HDsEMG to enable multi-DoF control.
+- Cites that 78% of non-working patients with certain neurological conditions seek employment, reinforcing the market need for assistive HRC technologies (exoskeletons) in the workforce.
+
+---
+
+### 40. Editorial: Surface Electromyography: Barriers Limiting Widespread Use of sEMG in Clinical Assessment and Neurorehabilitation
+**URL:** https://doi.org/10.3389/fneur.2021.642257
+
+**Summary:**
+This 2021 editorial synthesizes findings from 18 contributions (involving 80 experts) regarding the limited adoption of surface electromyography (sEMG) despite its proven utility. It categorizes the obstacles into **Cultural/Educational** barriers (lack of training, difficulty in signal interpretation) and **Technical/Administrative** barriers (time constraints, lack of reimbursement, fragmentation of analysis methods). The authors propose breaking the "vicious cycle" of non-adoption through better education, the creation of new professional roles (e.g., "clinical technologists"), and smarter, user-friendly technology.
+
+**Key Points:**
+- **The "Vicious Cycle" of Adoption:** No teaching of sEMG $\rightarrow$ No clinical competence $\rightarrow$ No demand for devices $\rightarrow$ Manufacturers focus on research rather than practical markets $\rightarrow$ Technology remains complex/expensive $\rightarrow$ Undemonstrated utility.
+- **Cultural Barriers:** Visual interpretation of sEMG is difficult (unlike ECG); proper analysis requires deep biomechanical knowledge often lacking in standard training for therapists (and by extension, safety professionals).
+- **Technical Barriers:** Excessive number of analysis methods (Fourier, wavelet, entropy) creates confusion; need for a limited number of standardized, reliable algorithms.
+- **Time Constraints:** Electrode application and signal analysis are viewed as too time-consuming for daily routine, though wireless systems help.
+- **Technology vs. Competence:** Poses a critical design question: Should technology become "intelligent" enough to correct user errors (higher cost), or should user competence be raised (higher training burden)?
+
+**How this reference can be used:**
+- **To draw parallels to construction:** The barriers preventing sEMG use in clinics (time, training, lack of standards) are nearly identical to those in construction. You can adapt their "Vicious Cycle" model to explain why sEMG-controlled exoskeletons are not yet standard PPE.
+- **To argue for "Smart" Exoskeletons:** Use the point about "intelligent" technology to justify why construction exoskeletons need automated artifact removal and auto-calibration (since construction workers cannot be expected to be sEMG experts).
+- **To discuss implementation time:** Cite the "lack of time" barrier to support the need for rapid-donning systems (e.g., e-textiles) in industrial workflows.
+- **To advocate for standardization:** Use the critique of "overwhelming/confusing methodologies" to argue for a standard industrial sEMG protocol.
+
+**Key Statistics / Notable Facts:**
+- **Scope:** Synthesizes views from 80 authors across 7 countries (Engineers, MDs, PTs, OTs, and Movement Scientists).
+- **Survey Data:** In cited surveys, 80% to 97% of respondents agreed sEMG provides unique information not offered by other tools, yet implementation remains low.
+- **Training Gap:** Interviews indicated that insufficient education on sEMG during degree programs and refresher courses is a primary cause of low adoption (reported by ~70% of interviewees in cited sub-studies).
+- **Time Barrier:** "Lack of time" for electrode placement and analysis is consistently cited as a major operational hurdle.
+- **Methodological overload:** The editorial notes that since 1996, the number of methods for determining muscle onset or spectral changes has become "overwhelming and confusing," hindering practical application.
+
+---
+
+### 41. Fundamental Concepts of Bipolar and High-Density Surface EMG Understanding and Teaching for Clinical, Occupational, and Sport Applications: Origin, Detection, and Main Errors
+**URL:** https://doi.org/10.3390/s22114150
+
+**Summary:**
+This 2022 review and educational article addresses the primary barrier to sEMG application: the lack of user competence and training. It uses analogies and mathematical models to explain the fundamental physics of sEMG generation, propagation, and detection. The paper critically analyzes the impact of electrode size, inter-electrode distance (IED), and placement on signal quality, highlighting common errors such as crosstalk and geometric artifacts during dynamic movement. It serves as a foundational guide for ensuring signal fidelity in clinical, occupational, and sport settings.
+
+**Key Points:**
+- **Signal Origin:** sEMG is the sum of motor unit action potentials (MUAPs) propagating along muscle fibers; this can be modeled as a tripole source moving through a volume conductor.
+- **Filtering Effects:** Electrodes act as spatial filters. Large electrodes (diameter >10 mm) and large IEDs act as low-pass filters, smoothing the signal and attenuating high-frequency content.
+- **Crosstalk & End-of-Fiber Effects:** "blurring" by subcutaneous tissue and signal termination at tendons create non-propagating components and crosstalk, which can lead to misinterpretation of muscle activation (e.g., confusing peroneus longus activity for tibialis anterior).
+- **Dynamic Artifacts:** During dynamic contractions (common in construction/sport), muscles slide under the skin. This changes the geometric relationship between the source and sensor, altering sEMG amplitude independently of neural drive.
+- **Innervation Zones (IZ):** Identifying IZs using High-Density sEMG (HDsEMG) is crucial for proper bipolar electrode placement (avoiding the IZ) and clinical applications like targeted botox injection.
+- **Barriers:** The "knowledge gap" is widening as technology advances faster than clinical/occupational training; proper skin preparation and sensor placement are often neglected.
+
+**How this reference can be used:**
+- **Technical Specifications:** To justify design choices for exoskeleton sensors regarding electrode size (≤10mm) and spacing (IED).
+- **Error Analysis:** To explain the sources of error in field-based sEMG (crosstalk, muscle sliding, sweat), which are critical challenges in dynamic construction environments.
+- **Training Justification:** To support the argument that deployment of sEMG-controlled exoskeletons requires specialized worker training or "clinical technologist" oversight to avoid "Garbage In, Garbage Out" (GIGO).
+- **Methodology:** As a reference for proper skin preparation and signal validation techniques in the methods section.
+
+**Key Statistics / Notable Technical Facts:**
+- **Electrode Size:** Electrodes with diameters >5 mm modify MUAP shape; diameters ≥10 mm introduce substantial low-pass filtering.
+- **Inter-Electrode Distance (IED):** Theoretically, IED should be <5 mm to satisfy Nyquist sampling (spatial), but 8–10 mm is acceptable for superficial muscles.
+- **Obesity Factor:** For obese subjects, IED >10 mm is actually recommended to counteract signal attenuation from thick subcutaneous tissue.
+- **Diagnostic Accuracy:** Cited studies indicate HDsEMG can distinguish between myopathies and neuropathies with an average accuracy of **97%**.
+- **Muscle Sliding:** In fusiform muscles (like biceps brachii), limb flexion can shift the muscle significantly under the skin, causing amplitude map changes that contradict the actual neural effort if electrodes are stationary.
 
 ---
